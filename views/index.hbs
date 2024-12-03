@@ -1,0 +1,19 @@
+<!-- HTML HERE-->
+
+<h1>Enter your height and weight </h1>
+
+<form action="/calculate">
+  <label for="height-input">Height</label>
+  <input id="height-input" name="height" type="number" step="0.01" />
+
+  <!-- google how to allow decimal places-->
+
+  <label for="weight-input">Weight</label>
+  <input type="number" name="weight" id="weight-input" step="0.01"/>
+  <!--name the input so the server can tell what the different data items are-->
+
+  <!-- Wehn a submit button is pressed the browser sends a message to the server with the form data-->
+
+  <input type="submit" name="submit" id="submit" />
+
+</form>
